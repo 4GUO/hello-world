@@ -1,0 +1,20 @@
+{
+  "name": "4man-pro/hello-world",
+  "description": "a test package",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "4man",
+      "email": "foreach@aliyun.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bin918\\": "src"
+    }
+  }
+}
